@@ -14,18 +14,17 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/graph
     baseUrl: https://graph.microsoft.com
     tags:
-      - Users
-      - Groups
-      - Mail
       - Calendar
       - Files
+      - Groups
+      - Mail
       - Teams
+      - Users
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/graph/overview
       - type: OpenAPI
-        url: 
-          https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+        url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
       - type: Authentication
         url: https://learn.microsoft.com/en-us/graph/auth/
       - type: SDKs
@@ -38,9 +37,9 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/office
     baseUrl: https://outlook.office.com/api
     tags:
-      - Email
       - Calendar
       - Contacts
+      - Email
       - OneDrive
       - SharePoint
     properties:
@@ -54,11 +53,11 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/microsoft-teams
     baseUrl: https://graph.microsoft.com/v1.0/teams
     tags:
-      - Teams
-      - Chat
-      - Channels
-      - Messaging
       - Bots
+      - Channels
+      - Chat
+      - Messaging
+      - Teams
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/microsoftteams/platform/
@@ -73,8 +72,8 @@ apis:
     baseUrl: https://graph.microsoft.com/v1.0/me/drive
     tags:
       - Files
-      - Storage
       - Sharing
+      - Storage
       - Sync
     properties:
       - type: Documentation
@@ -87,14 +86,13 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/outlook
     baseUrl: https://graph.microsoft.com/v1.0/me/messages
     tags:
-      - Email
       - Calendar
       - Contacts
+      - Email
       - Tasks
     properties:
       - type: Documentation
-        url: 
-          https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview
+        url: https://learn.microsoft.com/en-us/graph/api/resources/mail-api-overview
       - type: Tutorials
         url: https://learn.microsoft.com/en-us/outlook/rest/
   - name: SharePoint REST API
@@ -103,15 +101,14 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/sharepoint
     baseUrl: https://[tenant].sharepoint.com/_api
     tags:
+      - Collaboration
+      - Documents
+      - Lists
       - SharePoint
       - Sites
-      - Lists
-      - Documents
-      - Collaboration
     properties:
       - type: Documentation
-        url: 
-          https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
+        url: https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
       - type: Samples
         url: https://github.com/SharePoint/sp-dev-samples
   - name: Power BI REST API
@@ -121,10 +118,10 @@ apis:
     baseUrl: https://api.powerbi.com
     tags:
       - Analytics
-      - Reports
       - Dashboards
       - Datasets
       - Embedding
+      - Reports
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/rest/api/power-bi/
@@ -136,10 +133,10 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/to-do
     baseUrl: https://graph.microsoft.com/v1.0/me/todo
     tags:
-      - Tasks
-      - ToDo
       - Lists
       - Productivity
+      - Tasks
+      - ToDo
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/graph/api/resources/todo-overview
@@ -150,21 +147,20 @@ apis:
     baseUrl: https://graph.microsoft.com/v1.0/planner
     tags:
       - Planning
+      - Projects
       - Tasks
       - Teams
-      - Projects
     properties:
       - type: Documentation
-        url: 
-          https://learn.microsoft.com/en-us/graph/api/resources/planner-overview
+        url: https://learn.microsoft.com/en-us/graph/api/resources/planner-overview
 maintainers:
   - name: Microsoft Developer Relations
     email: developer@microsoft.com
     url: https://developer.microsoft.com
 tags:
+  - Cloud
+  - Collaboration
+  - Enterprise
   - Microsoft
   - Office 365
   - Productivity
-  - Collaboration
-  - Enterprise
-  - Cloud
