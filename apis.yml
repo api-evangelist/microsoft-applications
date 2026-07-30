@@ -1,6 +1,18 @@
 name: Microsoft Applications
 description: >-
   A collection of APIs for Microsoft's suite of applications and services.
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://www.microsoft.com/favicon.ico
 url: https://www.microsoft.com/apis
 created: '2024-01-15'
