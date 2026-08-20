@@ -28,6 +28,13 @@ apis:
     baseUrl: https://graph.microsoft.com
     tags:
       - Calendar
+      - File
+      - Group
+      - Mail
+      - Team
+      - User
+    tags_raw:
+      - Calendar
       - Files
       - Groups
       - Mail
@@ -70,6 +77,12 @@ apis:
       - Channels
       - Chat
       - Messaging
+      - Team
+    tags_raw:
+      - Bots
+      - Channels
+      - Chat
+      - Messaging
       - Teams
     properties:
       - type: Documentation
@@ -84,6 +97,11 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/onedrive
     baseUrl: https://graph.microsoft.com/v1.0/me/drive
     tags:
+      - File
+      - Sharing
+      - Storage
+      - Sync
+    tags_raw:
       - Files
       - Sharing
       - Storage
@@ -102,6 +120,11 @@ apis:
       - Calendar
       - Contacts
       - Email
+      - Task
+    tags_raw:
+      - Calendar
+      - Contacts
+      - Email
       - Tasks
     properties:
       - type: Documentation
@@ -114,6 +137,12 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/sharepoint
     baseUrl: https://[tenant].sharepoint.com/_api
     tags:
+      - Collaboration
+      - Documents
+      - List
+      - SharePoint
+      - Sites
+    tags_raw:
       - Collaboration
       - Documents
       - Lists
@@ -146,6 +175,11 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/to-do
     baseUrl: https://graph.microsoft.com/v1.0/me/todo
     tags:
+      - List
+      - Productivity
+      - Task
+      - To-Do
+    tags_raw:
       - Lists
       - Productivity
       - Tasks
@@ -159,6 +193,11 @@ apis:
     humanUrl: https://developer.microsoft.com/en-us/planner
     baseUrl: https://graph.microsoft.com/v1.0/planner
     tags:
+      - Planning
+      - Project
+      - Task
+      - Team
+    tags_raw:
       - Planning
       - Projects
       - Tasks
