@@ -98,7 +98,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/microsoftteams/platform/
-      - type: Samples
+      - type: Examples
         url: https://github.com/OfficeDev/Microsoft-Teams-Samples
       - type: BotFramework
         url: https://dev.botframework.com/
@@ -162,7 +162,7 @@ apis:
     properties:
       - type: Documentation
         url: https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service
-      - type: Samples
+      - type: Examples
         url: https://github.com/SharePoint/sp-dev-samples
   - name: Power BI REST API
     description: >-
