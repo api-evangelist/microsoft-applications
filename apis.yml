@@ -1,6 +1,17 @@
 name: Microsoft Applications
 description: >-
   A collection of APIs for Microsoft's suite of applications and services.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
